@@ -31,7 +31,8 @@ void setup() {
   if (PDFOUT) {
     size(800, 450, PDF, generateSaveImgFileName(".pdf"));
   } else {
-    size(400, 750); // quarter page size
+    size(910, 750); // more typical image ratio
+    size(400, 750); // sized for the wall.
   }
 
   // Layout variables
